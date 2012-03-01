@@ -1,0 +1,39 @@
+<html>
+<title>Upcoming Events</title>
+<head><link rel = stylesheet href = "style.css" type = "text/css">
+</head>
+<body>
+<div class = "superheader">
+<h1 class = "superheader"> Princeton Peru Partnership</h1>
+</div>
+<p>
+<div class = "superheader">
+<h1 class = "superheader">News</h1>
+</div>
+</p>
+
+<div class ="eventstile">
+<table cellpadding = "10"class = "eventstable">
+
+<% @updates.each do |update| %>
+  <%= render 'display', :update => update %>
+<% end %>
+
+
+
+</table>
+
+
+
+</table>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

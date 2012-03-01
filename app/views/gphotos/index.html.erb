@@ -1,0 +1,35 @@
+<html>
+<title>Gallery</title>
+<head><link rel = stylesheet href = "style.css" type = "text/css">
+</head>
+<body>
+<div class = "superheader">
+<h1 class = "superheader"> Princeton Peru Partnership</h1>
+</div>
+<p>
+<div class = "superheader">
+<h1 class = "superheader">Gallery</h1>
+</div>
+</p>
+
+<div class ="eventstile">
+<table cellpadding = "10"class = "eventstable">
+  <% @gphotos.each_slice(2) do |gphotos| %> 
+    <tr>
+        <%gphotos.each do |gphoto|%>
+            <td class = "gphotoimage"><%=image_tag gphoto.avatar.url(:medium) %></td>
+          <%end%>
+    </tr>
+    <tr>
+        <%gphotos.each do |g| %>  
+          <td class = "gphotocaption"><%=g.caption%></td>
+        <%end%>
+    </tr>
+  <%end%>
+
+
+</table>
+</div>
+
+</body>
+</html>

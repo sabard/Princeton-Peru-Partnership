@@ -1,0 +1,48 @@
+<html>
+<title>Upcoming Events</title>
+<head><link rel = stylesheet href = "style.css" type = "text/css">
+</head>
+<body>
+<div class = "superheader">
+<h1 class = "superheader"> Princeton Peru Partnership</h1>
+</div>
+<p>
+<div class = "superheader">
+<h1 class = "superheader">Upcoming Events</h1>
+</div>
+</p>
+
+<div class ="eventstile">
+<table cellpadding = "10"class = "eventstable">
+<tr>
+<th class = "eventstableheader">Event</th>
+<th class = "eventstableheader">Date</th>
+<th class = "eventstableheader">Place</th>
+</tr>
+
+
+<% @events.each do |event| %>
+  <tr>
+    <td class = "eventstableelement"><%=event.name%></td>
+    <td class = "eventstableelement"><%=event.date%></td>
+    <td class = "eventstableelement"><%=event.location%></td>
+  </tr>
+<% end %>
+
+
+</table>
+
+
+
+</table>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
