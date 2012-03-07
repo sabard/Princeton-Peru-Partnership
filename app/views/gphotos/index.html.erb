@@ -4,17 +4,15 @@
 </head>
 <body>
 <p>
-<div class = "superheader">
-<h1 class = "superheader">Gallery</h1>
-</div>
+<h1 class = "subheader">Gallery</h1>
 </p>
 
-<div class ="eventstile">
+<div class ="maintile">
 <table cellpadding = "10"class = "eventstable">
   <% @gphotos.each_slice(2) do |gphotos| %> 
     <tr>
         <%gphotos.each do |gphoto|%>
-            <td class = "gphotoimage"><%=image_tag gphoto.avatar.url(:medium) %></td>
+            <td class = "standardimage"><%=image_tag gphoto.avatar.url(:medium) %></td>
           <%end%>
     </tr>
     <tr>

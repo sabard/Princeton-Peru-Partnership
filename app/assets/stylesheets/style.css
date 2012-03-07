@@ -1,7 +1,8 @@
 /*Change the Body's background image*/
 body
 {
-background-image: url("IMG_1882.JPG");
+background-image:url("IMG_1882.JPG");
+background-image:no-repeat;
 /*background-color: #f0f0f0;*/
 }
 
@@ -10,7 +11,7 @@ background-image: url("IMG_1882.JPG");
 .navbar{
 background-color: #b3b3b3;
 height: 200px;
-width: 150px;
+width: 225px;
 border-radius: 15px;
 float: left;
 margin-right: 15px;
@@ -57,6 +58,8 @@ opacity: 1;
 filter: alpha(opacity=80);
 }
 h1.superheader{
+white-space: nowrap;
+position: absolute;
 border-radius: 15px;
 border-top:5px;
 border-bottom:5px;
@@ -70,15 +73,33 @@ font-weight: 100;
 color: black;
 font-size: xx-large;
 margin-top: 18px;
-margin-left: 190px;
-float: right;
+margin-left: 275px;
+float: left;
 opacity: 0.85;
 }
 .superheader:hover{
     opacity: 1;
 }
-.superheader{
-float: left;
+
+.subheader{
+    white-space: nowrap;
+    position:absolute;
+    margin-top:50px;
+    margin-left: 750px;
+    border-radius: 15px;
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    color: black;
+    font-size: xx-large;
+    margin-right: 5px;
+    opacity: 0.85;
+    border-style: solid;
+    border-width:5px;
+    border-color: #b3b3b3;
+    background-color: #b3b3b3;
+}
+.subheader:hover{
+    opacity:1;
 }
 p.aboutus{
 font-family: Helvetica Neue;
@@ -91,12 +112,6 @@ margin-top: 10px;
 }
 .headerimg{
 margin-left: 0px;
-border-color: #b3b3b3;
-border-top: 5px;
-border-bottom: 5px;
-border-left: 5px;
-border-right: 5px;
-
 }
 
 
@@ -195,16 +210,16 @@ width: 75px;
 margin-right: 10px;
 margin-top: 10px;
 }
-.eventstile{
+.maintile{
+position: absolute;
+margin-top: 102px;
+margin-left: 275px;
 border-radius:30px;
-margin-top: 10;
 background-color: #b3b3b3;
 opacity: .85;
 height: auto;
-width: 750px;
-margin-top: 10px;
+width: 755px;
 margin-right: 100px;
-margin-left: 200px;
 margin-bottom: 10px;
 border-style: solid;
 border-radius: 15px;
@@ -213,25 +228,7 @@ font-family: Helvetica Neue;
 color: white;
 font-weight: 100;
 }
-.homepagetile{
-border-radius:30px;
-margin-top: 10;
-background-color: #b3b3b3;
-opacity: .85;
-height: auto;
-width: 750px;
-margin-top: 28px;
-margin-right: 100px;
-margin-left: 200px;
-margin-bottom: 10px;
-border-style: solid;
-border-radius: 15px;
-float: left;
-font-family: Helvetica Neue;
-color: white;
-font-weight: 100;
-}
-.eventstile:hover{
+.maintile:hover{
 opacity: 1;
 filter: alpha(opacity=80);
 }
@@ -281,14 +278,36 @@ font-family: Helvetica Neue;
 color: black;
 font-weight: 100;
 }
-td.gphotoimage{
+td.standardimage{
     overflow:hidden;
 }
 .gphotocaption{
    font-family: Helvetica Neue;
     font-weight: 100;
     font-size:small;
-    font-weight: 200;
     height: 20px;
     color: white;
+ }
+ .productname{
+    font-family: Helvetica Neue;
+    font-weight: 175;
+    font-size:medium;
+    margin-bottom: 15px;
+    color: black; 
+ }
+ .productprice{
+    font-family: Helvetica Neue;
+    font-weight: 200;
+    font-size:small;
+    height: 20px;
+    color: white;
+ }
+ .donatetext{
+     font-family: Helvetica Neue;
+     font-weight: 150;
+     font-size:large;
+     margin-left:200px;
+     margin-right:200px;
+     margin-top: 30px;
+     margin-bottom: 30px;
  }

@@ -1,4 +1,6 @@
 PrincetonPeruPartnership::Application.routes.draw do
+  resources :products
+
   resources :gphotos
 
   resources :updates
@@ -80,5 +82,6 @@ PrincetonPeruPartnership::Application.routes.draw do
   match '/donate' => "home#donate"
   match '/news' => "updates#index"
   match '/gallery' => "gphotos#index"
+  match '/products' => "products#index"
   
 end
