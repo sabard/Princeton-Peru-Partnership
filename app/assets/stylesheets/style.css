@@ -15,7 +15,7 @@ width: 225px;
 border-radius: 15px;
 float: left;
 margin-right: 15px;
-margin-top: 104px;
+margin-top: 62px;
 opacity: .7;
 position: fixed;
 }
@@ -72,7 +72,7 @@ font-family: Helvetica Neue;
 font-weight: 100;
 color: black;
 font-size: xx-large;
-margin-top: 18px;
+margin-top: -43px;
 margin-left: 275px;
 float: left;
 opacity: 0.85;
@@ -84,11 +84,11 @@ opacity: 0.85;
 .subheader{
     white-space: nowrap;
     position:absolute;
-    margin-top:50px;
+    margin-top:-20px;
     margin-left: 750px;
     border-radius: 15px;
     font-family: Helvetica Neue;
-    font-weight: 100;
+    font-weight: 200;
     color: black;
     font-size: xx-large;
     margin-right: 5px;
@@ -212,7 +212,7 @@ margin-top: 10px;
 }
 .maintile{
 position: absolute;
-margin-top: 102px;
+margin-top: 62px;
 margin-left: 275px;
 border-radius:30px;
 background-color: #b3b3b3;
