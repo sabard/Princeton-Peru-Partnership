@@ -2,7 +2,7 @@
 body
 {
 background-image:url("IMG_1882.JPG");
-background-image:no-repeat;
+background-repeat:no-repeat;
 /*background-color: #f0f0f0;*/
 }
 
@@ -49,7 +49,7 @@ margin-left: 200px;
 border-style: solid;
 border-radius: 15px;
 float: left;
-font-family: Helvetica Neue;
+font-family: Helvetica;
 color: #b3b3b3;
 font-weight: 100;
 }
@@ -68,7 +68,7 @@ border-right:5px;
 border-style: solid;
 background-color: #b3b3b3;
 border-color: #b3b3b3;
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-weight: 100;
 color: black;
 font-size: xx-large;
@@ -87,7 +87,7 @@ opacity: 0.85;
     margin-top:-20px;
     margin-left: 750px;
     border-radius: 15px;
-    font-family: Helvetica Neue;
+    font-family: Helvetica;
     font-weight: 200;
     color: black;
     font-size: xx-large;
@@ -102,7 +102,7 @@ opacity: 0.85;
     opacity:1;
 }
 p.aboutus{
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-weight: 150;
 color: black;
 font-size: large;
@@ -112,6 +112,7 @@ margin-top: 10px;
 }
 .headerimg{
 margin-left: 0px;
+opacity: .8;
 }
 
 
@@ -172,7 +173,7 @@ opacity: 1;
 }
 
 a.twitterlink{
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-size: inherit;
 font-weight: inherit;
 color: #25acf5;
@@ -181,7 +182,7 @@ text-decoration: none
 
 /*Events table*/
 table.eventstable{
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-weight: 100;
 color: white;
 border: "0";
@@ -190,7 +191,7 @@ margin-left: 15px;
 margin-bottom: 10px
 }
 td.eventstableelement{
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-weight: 100;
 font-size:large;
 font-weight: 200;
@@ -201,7 +202,7 @@ margin-right: 10px;
 margin-top: 5px;
 }
 th.eventstableheader{
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-weight: 200;
 font-size: xx-large;
 color: black;
@@ -224,7 +225,7 @@ margin-bottom: 10px;
 border-style: solid;
 border-radius: 15px;
 float: left;
-font-family: Helvetica Neue;
+font-family: Helvetica;
 color: white;
 font-weight: 100;
 }
@@ -233,7 +234,7 @@ opacity: 1;
 filter: alpha(opacity=80);
 }
 td.updatetitle{
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-weight: 100;
 font-size:large;
 font-weight: 200;
@@ -242,7 +243,7 @@ margin-right: 10px;
 margin-top: 5px;
 }
 td.updatecontent{
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-weight: 100;
 font-size:small;
 font-weight: 200;
@@ -252,7 +253,7 @@ margin-left: 20px;
 float: left;
 }
 td.updatedate{
-font-family: Helvetica Neue;
+font-family: Helvetica;
 font-weight: 300;
 font-size: x-small;
 color: black;
@@ -274,7 +275,7 @@ margin-left: 1px;
 border-style: solid;
 border-radius: 15px;
 float: right;
-font-family: Helvetica Neue;
+font-family: Helvetica;
 color: black;
 font-weight: 100;
 }
@@ -282,28 +283,28 @@ td.standardimage{
     overflow:hidden;
 }
 .gphotocaption{
-   font-family: Helvetica Neue;
+   font-family: Helvetica;
     font-weight: 100;
     font-size:small;
     height: 20px;
     color: white;
  }
  .productname{
-    font-family: Helvetica Neue;
+    font-family: Helvetica;
     font-weight: 175;
     font-size:medium;
     margin-bottom: 15px;
     color: black; 
  }
  .productprice{
-    font-family: Helvetica Neue;
+    font-family: Helvetica;
     font-weight: 200;
     font-size:small;
     height: 20px;
     color: white;
  }
  .donatetext{
-     font-family: Helvetica Neue;
+     font-family: Helvetica;
      font-weight: 150;
      font-size:large;
      margin-left:200px;
