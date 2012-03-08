@@ -32114,3 +32114,1369 @@ Served asset /Liana%20Final.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/Neil%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:24:32 -0500
 Served asset /Neil%20Final.jpg - 304 Not Modified (0ms)
+  [1m[36m (0.1ms)[0m  [1mSHOW search_path[0m
+[paperclip] Duplicate URL for avatar with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in Gphoto class
+
+
+Started GET "/crew" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+  Processing by HomeController#crew as HTML
+Rendered home/crew.html.erb within layouts/application (43.3ms)
+Compiled style.css  (0ms)  (pid 37081)
+Compiled application.css  (87ms)  (pid 37081)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 244ms (Views: 243.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /events.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /active_admin.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /gphotos.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /products.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /style.css - 200 OK (2ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /updates.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /jquery-ui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /active_admin/application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /active_admin/base.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /active_admin.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /events.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /gphotos.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /updates.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (4ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/Dan%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /Dan%20Final.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Becca%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /Becca%20Final.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/Hayden%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /Hayden%20Final.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/Mene%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /Mene%20Final.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Liana%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /Liana%20Final.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/Neil%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:28:10 -0500
+Served asset /Neil%20Final.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/crew" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+  Processing by HomeController#crew as HTML
+Rendered home/crew.html.erb within layouts/application (0.6ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/Becca%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /Becca%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Mene%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /Mene%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Dan%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /Dan%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Hayden%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /Hayden%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Liana%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /Liana%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Neil%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:18 -0500
+Served asset /Neil%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.6ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:30:20 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+  Processing by UpdatesController#index as HTML
+  [1m[35mUpdate Load (33.7ms)[0m  SELECT "updates".* FROM "updates" 
+Rendered updates/index.html.erb within layouts/application (0.4ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 16.6ms | ActiveRecord: 34.2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:30:21 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/crew" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+  Processing by HomeController#crew as HTML
+Rendered home/crew.html.erb within layouts/application (0.6ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (2ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/Dan%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /Dan%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Becca%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /Becca%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Mene%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /Mene%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Hayden%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /Hayden%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Liana%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /Liana%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Neil%20Final.jpg" for 127.0.0.1 at 2012-03-07 23:30:22 -0500
+Served asset /Neil%20Final.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+  Processing by EventsController#index as HTML
+  [1m[36mEvent Load (105.2ms)[0m  [1mSELECT "events".* FROM "events" [0m
+Rendered events/index.html.erb within layouts/application (6.7ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 133ms (Views: 24.4ms | ActiveRecord: 107.2ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:30:23 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+[paperclip] Duplicate URL for avatar with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in Product class
+  [1m[35m (0.2ms)[0m  SHOW search_path
+  Processing by GphotosController#index as HTML
+  [1m[36mGphoto Load (0.4ms)[0m  [1mSELECT "gphotos".* FROM "gphotos" [0m
+Rendered gphotos/index.html.erb within layouts/application (0.7ms)
+Rendered layouts/_header.html.erb (0.3ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:30:24 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+[paperclip] Duplicate URL for avatar with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in Gphoto class
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" 
+Rendered products/index.html.erb within layouts/application (0.6ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/donate" for 127.0.0.1 at 2012-03-07 23:30:25 -0500
+  Processing by HomeController#donate as HTML
+Rendered home/donate.html.erb within layouts/application (0.4ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (0ms)
+
+
+Started GET "/assets/PrincetonPeruPartnership.jpeg" for 127.0.0.1 at 2012-03-07 23:30:26 -0500
+Served asset /PrincetonPeruPartnership.jpeg - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/PrincetonPeruPartnership.jpeg"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+  [1m[36m (0.1ms)[0m  [1mSHOW search_path[0m
+[paperclip] Duplicate URL for avatar with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in Gphoto class
+
+
+Started GET "/donate" for 127.0.0.1 at 2012-03-07 23:31:42 -0500
+  Processing by HomeController#donate as HTML
+Rendered home/donate.html.erb within layouts/application (15.9ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 155ms (Views: 154.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /active_admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /events.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /gphotos.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /products.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /updates.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /jquery-ui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /active_admin/application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /active_admin/base.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /active_admin.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /events.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /gphotos.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /products.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /updates.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /application.js - 304 Not Modified (39ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /IMG_1882.JPG - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.jpeg" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /logo.jpeg - 200 OK (6ms)
+
+
+Started GET "/donate" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+  Processing by HomeController#donate as HTML
+Rendered home/donate.html.erb within layouts/application (0.0ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpeg" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /logo.jpeg - 200 OK (0ms)
+
+
+Started GET "/assets/IMG_1882.JPG" for 127.0.0.1 at 2012-03-07 23:31:43 -0500
+Served asset /IMG_1882.JPG - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-07 23:31:45 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.4ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:45 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gphotos.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /gphotos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /active_admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /updates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gphotos.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /gphotos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /updates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2012-03-07 23:31:46 -0500
+
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+
+Rendered /Users/Sabar/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
