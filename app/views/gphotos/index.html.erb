@@ -8,22 +8,93 @@
 </p>
 
 <div class ="maintile">
-<table cellpadding = "10"class = "eventstable">
-  <% @gphotos.each_slice(2) do |gphotos| %> 
+<!--table cellpadding = "10"class = "eventstable">
+  <!% @gphotos.each_slice(2) do |gphotos| %> 
     <tr>
-        <%gphotos.each do |gphoto|%>
-            <td class = "standardimage"><%=image_tag gphoto.avatar.url(:medium) %></td>
-          <%end%>
+      
+        <!--%gphotos.each do |gphoto|%>
+            <!--td class = "standardimage"><!%=image_tag gphoto.avatar.url(:medium) %></td-->
+            <!--td class ="standardimage"> <img src="G{gphoto.id}.jpeg" height="300" width="300" /></td-->
+          <!--%end%>
     </tr>
     <tr>
-        <%gphotos.each do |g| %>  
-          <td class = "gphotocaption"><%=g.caption%></td>
-        <%end%>
+        <!%gphotos.each do |g| %>  
+          <td class = "gphotocaption"><!%=g.caption%></td>
+        <!%end%>
     </tr>
-  <%end%>
-
-
+  <!%end%-->
 </table>
+
+<table cellpadding = "10"class = "eventstable">
+  <tr>
+     <td class ="standardimage"> <img src="G1.jpeg" height="300" width="300" /></td>
+     <td class ="standardimage"> <img src="G2.jpeg" height="300" width="300" /></td>
+  </tr>
+  <tr>
+    <td class = "gphotocaption">Summer 2011, Group photo with world-renowned artist: Victor Delfin	</td>
+    <td class = "gphotocaption">Summer 2011, Group photo in the Peruvian Andes Mountains		</td>
+ 
+  </tr>
+  <tr>
+    <td class ="standardimage"> <img src="G3.jpeg" height="300" width="300" /></td>
+    <td class ="standardimage"> <img src="G4.jpeg" height="300" width="300" /></td>
+  </tr>
+  <tr>
+    <td class = "gphotocaption">Stunning views from the Inca Trail, Machu Picchu		</td>
+    <td class = "gphotocaption">Summer 2011, Group photo after completing 1-Day, 7 hour trek of Inca Trail			</td>
+  </tr>
+  <tr>
+    <td class ="standardimage"> <img src="G5.jpeg" height="300" width="300" /></td>
+    <td class ="standardimage"> <img src="G6.jpeg" height="300" width="300" /></td>
+  </tr>
+  <tr>
+    <td class = "gphotocaption">Remaining group staying in Peru for community service in Taray		</td>
+    <td class = "gphotocaption">Bird's-eye view of Taray 2 YEARS after devastating mudslide disaster	</td>
+  </tr>
+  <tr>
+    <td class ="standardimage"> <img src="G7.jpeg" height="300" width="300" /></td>
+    <td class ="standardimage"> <img src="G8.jpeg" height="300" width="300" /></td>
+  </tr>
+  <tr>
+    <td class = "gphotocaption">Taray school under construction	</td>
+    <td class = "gphotocaption">Upper school under construction			</td>
+  </tr>
+  <tr>
+    <td class ="standardimage"> <img src="G9.jpeg" height="300" width="300" /></td>
+    <td class ="standardimage"> <img src="G10.jpeg" height="300" width="300" /></td>
+  </tr>
+  <tr>
+    <td class = "gphotocaption">Menelaos spending time with Tarayian school kids		</td>
+    <td class = "gphotocaption">PHS Group at work in constructing bamboo bookshelf from "scratch"		</td>
+  </tr>
+  <tr>
+    <td class ="standardimage"> <img src="G11.jpeg" height="300" width="300" /></td>
+    <td class ="standardimage"> <img src="G12.jpeg" height="300" width="300" /></td>
+  </tr>
+  <tr>
+    <td class = "gphotocaption">The mastermind behind all relief efforts in Taray: Alonso Del Rio		</td>
+    <td class = "gphotocaption">PHS Group in front of finished products-Bamboo Bookshelves			</td>
+  </tr>
+  
+  
+    <tr>
+    <td class ="standardimage"> <img src="G13.jpeg" height="300" width="300" /></td>
+    <td class ="standardimage"> <img src="G14.jpeg" height="300" width="300" /></td>
+  </tr>
+  <tr>
+    <td class = "gphotocaption">PHS Group assembling environmentally friendly "Solar Ovens"			</td>
+    <td class = "gphotocaption">On the ground devastation 2 YEARS after mudslide disaster			</td>
+  </tr>
+  <tr>
+    <td class ="standardimage"> <img src="G15.jpeg" height="300" width="300" /></td>
+    <td class ="standardimage"> <img src="G16.jpeg" height="300" width="300" /></td>
+  </tr>
+  <tr>
+    <td class = "gphotocaption">What is left of an adobe-brick two-story household 2 YEARS after the mudslide			</td>
+    <td class = "gphotocaption">Several household structures completely destroyed by the fatal mudslide				</td>
+  </tr>
+</table>
+
 </div>
 
 </body>
